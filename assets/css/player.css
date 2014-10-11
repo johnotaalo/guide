@@ -1,0 +1,78 @@
+.jersey
+{
+	padding: 20px;
+	background-color: #2ecc71;
+	/*margin: .5px;*/
+	color: #fff;
+	cursor: pointer;
+}
+
+.jersey:hover
+{
+	opacity: 0.5;
+}
+
+.jerseytaken
+{
+	background-color: #fff;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	background-size: cover;
+}
+
+.jerseytaken:hover
+{
+	opacity: 0.9;
+}
+
+.additionalinfo
+{
+}
+
+.player-overlay
+{
+	background-color: rgba(0,0,0,0.7);
+	/*width: 100%;*/
+}
+
+
+.selected
+{
+	background-color: #27ae60 !important;
+}
+
+#imagePreview {
+	background-image: url('../avatar/avatar-male.png');
+    width: 180px;
+    height: 180px;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, .3);
+    display: inline-block;
+}
+
+#progressbox {
+	border: 1px solid #0099CC;
+	padding: 1px; 
+	position:relative;
+	width:400px;
+	border-radius: 3px;
+	margin: 10px;
+	display:none;
+	text-align:left;
+}
+#progressbar {
+	height:20px;
+	border-radius: 3px;
+	background-color: #003333;
+	width:1%;
+}
+#statustxt {
+	top:3px;
+	left:50%;
+	position:absolute;
+	display:inline-block;
+	color: #000000;
+}
